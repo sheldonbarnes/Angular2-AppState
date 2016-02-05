@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false,
+    "files": [
+        "app/app.component.ts",
+        "app/boot.ts",
+        "typings/angular2/angular2.d.ts",
+        "typings/requirejs/require.d.ts",
+        "typings/rx/rx-lite.d.ts",
+        "typings/rx/rx.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
